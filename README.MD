@@ -1,0 +1,1 @@
+Part 2 of Getting Started with Angular 2. And we’ll meet many of the core fundamentals of Angular along the way.
