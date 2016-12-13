@@ -5,8 +5,10 @@ import { HeroService } from './hero.service';
 import { HeroesComponent } from './heroes.component';
 
 @Component({
+    moduleId: module.id,
     selector: 'my-app',
-    templateUrl: './app/app.component.html'
+    templateUrl: './app.component.html',
+    styleUrls: [ './app.component.css' ]
 })
 
 export class AppComponent {

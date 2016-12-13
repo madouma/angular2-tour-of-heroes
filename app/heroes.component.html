@@ -6,7 +6,6 @@
 </ul>
 
 <div *ngIf='selectedHero'>
-    <h2>{{selectedHero.name}} is my hero</h2>
-    <button class="btn">View Details</button>
+    <h2>{{selectedHero.name | uppercase}} is my hero</h2>
+    <button class="btn" (click)='goToDetail()'>View Details</button>
 </div>
-<!--<my-hero-detail [hero]='selectedHero'></my-hero-detail> -->
